@@ -14,14 +14,14 @@ export const personalInformation: PersonalInformation = {
   ],
   presentationPhrase: 'Graduada de Ingeniería Informática. Puedo trabajar de forma individual o en equipo. Soy programadora de Software y diseñadora, aunque' +
   ' también he desempeñado otros roles. Me adapto a cualquier circunstancia de trabajo. Soy muy dedicada y sacrificada.',
-  // TODO CAMBIAR TEXTO SOBRE MI
+  
   aboutMe: 'Graduada de Ingeniería Informática. Poseo un nivel alto de Inglés y un nivel B2 de Francés. Experiencia en Frontend, Backend y como Diseñadora. He desempeñado los roles de:' +
   ' Jefa de Proyecto, Analista-Arquitecto, Planificador, Probador-Especialista de Calidad y Diseñadora Principal, pero generalmente desempeño el rol de Programdor. No presento problemas ' +
   'para trabajar en equipo. Me apasiona lo que hago y soy muy dedicada y sacrificada con mi trabajo. Me adapto a cualquier circunstancia laboral.',
   email: 'mnkmm44@gmail.com',
   phone: '+53 58294135',
   birthdate: '9 de Diciembre de 2000',
-  cvLink: '/cv/Curriculum%20Vitae%20Mónica%20Montoto%20Montané.doc',
+  cvLink: '/cv/Curriculum%20Vitae%20Mónica%20Montoto%20Montané.doc', //revisar
 }
 
 export const skills: Skill[] = [
@@ -60,6 +60,7 @@ export const skills: Skill[] = [
   { name: 'PhotoShop', percent: 90 },
 
   { name: 'WordPress', percent: 60 },
+  { name: 'Vue', percent: 45 },
   { name: 'JUnit', percent: 35 },
 ]
 
@@ -77,6 +78,7 @@ export const projectCategories: Category[] = [
   { id: 'frontend', name: 'Frontend' }
 ]
 
+//agregar
 export const projects: Project[] = [
   // new Project(
   //   [projectCategories[0], projectCategories[1], projectCategories[2]],
